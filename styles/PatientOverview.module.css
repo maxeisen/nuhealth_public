@@ -1,0 +1,12 @@
+.patientContainer {
+  overflow-y: hidden;
+}
+
+.overviewContainer {
+  margin: 2.5rem;
+}
+
+.formModal {
+  position: absolute;
+  right: 0;
+}

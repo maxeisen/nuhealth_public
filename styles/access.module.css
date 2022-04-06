@@ -1,0 +1,62 @@
+.container {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    height: 8rem;
+    align-items: flex-end;
+}
+
+.imageContainer {
+    padding-left: 1rem;
+}
+
+.subHeader {
+    padding: 1rem 0 0 4.5rem;
+}
+.tooltipContainer {
+    background-color: #dddddd;
+    height: 100%;
+}
+.tooltip {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 5rem 1rem 0 1.5rem;
+}
+
+.main {
+    padding: 2.5rem 1rem 2rem;
+}
+
+.main h4{
+    padding-bottom: 1rem;
+}
+
+.main p, .main h1 {
+    font-weight: 700; 
+}
+
+.checkbox {
+    padding: .5rem;
+}
+
+.footer {
+    display: flex;
+    padding: 0 1rem 2rem;
+}
+
+.buttonContainer {
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    .footer {
+        justify-content: center;
+    }
+
+    .buttonContainer {
+        width: 40%
+    }
+}

@@ -1,0 +1,19 @@
+.card {
+  margin: 1.25rem;
+}
+
+.cardEyebrow {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.cardTitle {
+  display: inline-block !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  color: #00000099
+}

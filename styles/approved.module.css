@@ -1,0 +1,63 @@
+.container {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    height: 8rem;
+    align-items: flex-end;
+}
+
+.imageContainer {
+    padding-left: 1rem;
+}
+
+.subHeader {
+    padding: 1rem 0 0 4.5rem;
+}
+.tooltipContainer {
+    background-color: #dddddd;
+    height: 100%;
+}
+.tooltip {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 5rem 1rem 0 1.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 11rem 1rem 13rem;
+    text-align: center;
+}
+
+.main h1 {
+    padding: 1.5rem 0 0 0;
+    font-weight: 700;
+}
+
+.main p {
+    padding: 0 0 1.5rem 0;
+}
+
+.main .buttonContainer * {
+    width: 100%
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .main .buttonContainer * {
+        width: 30%;
+    }
+
+    .main {
+        padding: 5rem 2rem 8rem;
+    }
+}

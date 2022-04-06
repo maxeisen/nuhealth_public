@@ -1,0 +1,69 @@
+
+
+.patientInfo{
+  padding-left: var(--gutter);
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
+  background-color: #E8E8E8;
+  box-shadow: inset -7px 0px 15px -2px rgba(0,0,0,0.03);
+  border-radius: 6px;
+}
+
+.row1{
+  margin-bottom: var(--double-gutter);
+}
+
+.row2{
+  margin-bottom: var(--double-gutter);
+}
+
+.nameAndPhone{
+  margin-left: 10px;
+  margin-top: var(--gutter);
+}
+
+.patientImage {
+  border-radius: 10px;
+}
+
+.name{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: var(--double-gutter);
+}
+
+.phone{
+  font-size: 18px;
+  color: #4075B1;
+}
+
+.detailsHeader{
+  font-size: 18px;
+}
+
+.details{
+  font-size: 18px;
+  margin-bottom: var(--double-gutter);
+}
+
+.detailsRows{
+  margin-bottom: var(--half-gutter);
+}
+
+.detailsSubheader{
+  color: grey;
+}
+
+.detailsData{
+  font-weight: bold;
+}
+
+.footer{
+  margin-top: 25%;
+  padding-left: var(--gutter);
+  font-size: 18px;
+}
+
+.nuhealth{
+  font-weight: bold;
+}

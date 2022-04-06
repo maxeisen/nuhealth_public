@@ -1,0 +1,59 @@
+.container{
+  margin-left: 2%;
+  margin-top: 1%;
+  overflow-x: hidden;
+}
+
+.row1{
+  margin-bottom: 2%;
+}
+
+.row2{
+  margin-bottom: 2%;
+}
+
+.dashboard{
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.cardHeader{
+  font-size: 24px;
+  color: #293748;
+  margin-bottom: var(--half-gutter);
+}
+
+.itemName{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5%;
+}
+
+.itemText{
+  font-size: 16px;
+  color: gray;
+}
+
+.medType{
+  color: #4075B1;
+  font-size: 16px;
+}
+
+.overviewContainer {
+  margin: 2.5rem;
+}
+
+.formModal {
+  position: absolute;
+  right: 0;
+}
+
+.recentVisitDate{
+  font-size: 16px;
+  color: gray;
+  text-align: right;
+}
+
+.icon{
+  margin-top: 0.8%;
+}

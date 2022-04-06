@@ -1,0 +1,52 @@
+.container {
+    background-color: #e1e1e1;
+}
+  
+.header {
+background-color: #F9F9F9;
+padding: 2rem 1rem .5rem;
+}
+
+.error {
+color: red;
+font-size: 1.2rem;
+}
+
+.subHeader {
+padding: 1rem 0 0 4.5rem;
+}
+
+.buttonContainer {
+margin-top: 9rem;
+}
+
+.list ul {
+padding-left: 1.5rem;
+}
+
+.list {
+padding-top: 2rem;
+}
+
+.footer {
+display: flex;
+flex-direction: column;
+padding: 1rem 1rem 2rem;
+}
+
+.footer button[type='link'] {
+margin-top: 1rem;
+}
+
+.main {
+background-color: #F9F9F9;
+padding: 1rem 1rem 4rem 1rem;
+border-bottom-left-radius: 50% 6%;
+border-bottom-right-radius: 50% 6%;
+}
+
+.tooltip {
+border: none;
+background-color: transparent;
+padding-right: 2rem;
+}
